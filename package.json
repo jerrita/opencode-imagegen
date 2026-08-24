@@ -1,5 +1,5 @@
 {
-  "name": "opencode-imagegen",
+  "name": "opencode-qimage",
   "version": "0.1.0",
   "description": "OpenCode plugin: image_gen / image_edit tools routed by provider/model",
   "type": "module",

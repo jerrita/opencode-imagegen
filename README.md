@@ -1,4 +1,4 @@
-# opencode-imagegen
+# opencode-qimage
 
 OpenCode 插件：给 agent 两个 tool，`image_gen`（文生图）和 `image_edit`（改图 / 参考合成）。按 `provider/model` 路由到 OpenAI、xAI Grok 或 OpenRouter 的图像 API。
 
@@ -25,7 +25,7 @@ pnpm build
 {
   "plugin": [
     [
-      "opencode-imagegen",
+      "opencode-qimage",
       {
         "default": "openai/gpt-image-2",
         "models": {
@@ -68,7 +68,7 @@ pnpm build
 {
   "plugin": [
     [
-      "opencode-imagegen",
+      "opencode-qimage",
       {
         "default": "gateway/gpt-image-2",
         "models": {
@@ -110,5 +110,5 @@ pnpm build
 导出：
 
 ```ts
-export default { id: "opencode-imagegen", server: plugin } satisfies PluginModule
+export default { id: "opencode-qimage", server: plugin } satisfies PluginModule
 ```

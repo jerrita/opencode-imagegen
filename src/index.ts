@@ -77,4 +77,4 @@ export const plugin: Plugin = async (_input, rawOptions) => {
   }
 }
 
-export default { id: "opencode-imagegen", server: plugin } satisfies PluginModule
+export default { id: "opencode-qimage", server: plugin } satisfies PluginModule
